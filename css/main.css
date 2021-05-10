@@ -1,0 +1,184 @@
+html,
+body {
+  overflow-x: hidden;
+}
+.navbar .navbar-nav .nav-link:not(.btn) i.fa {
+  font-size: 18px;
+  position: relative;
+  top: 1px;
+  text-align: center;
+  width: 21px;
+}
+.clear-filter[filter-color='pink-blue'] {
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(0, 0, 0, 0.8));
+}
+.bg-pink-blue {
+  background: #3A1C71;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+[data-background-color='pink-blue'] {
+  background: #3A1C71;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+.navbar.navbar-transparent {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+.index-page .page-header .container > .content-center {
+  top: 43%;
+}
+.navbar .navbar-nav .nav-link:not(.btn) {
+  font-size: 1.05em;
+}
+.card {
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  background-color: #35a4f3;
+}
+
+.btn:hover {
+  background-color: #158bde;
+}
+
+.ayo {
+  height: 200px;
+  width: auto;
+}
+
+.ayo2{
+color: #3A1C71;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.sp {
+  display: none;
+}
+.pc {
+  display: block;
+}
+.pc.n-logo {
+  display: inline-block;
+}
+.sp.n-logo {
+  display: none;
+}
+.btn,
+input[type='text'],
+input[type='email'] {
+  font-size: 1.15em;
+}
+.btn-pink-blue {
+  background-color: red;
+
+  margin: 20px 0px 50px 0px;
+  /* background: linear-gradient(-45deg,rgba(255,5,155,1),rgba(120,107,233,1)); */
+}
+.btn-pink-blue:hover,
+.btn-pink-blue:focus,
+.btn-pink-blue:active,
+.btn-pink-blue:hover:active {
+  background-color: #6d0808;
+  /* background: linear-gradient(-45deg,rgba(120,107,233,1),rgba(255,5,155,1)); */
+}
+.productivity-row {
+  margin-bottom: 40px;
+}
+.modal-dialog {
+  max-width: 600px;
+}
+.title {
+  font-weight: normal;
+  text-align: center;
+}
+.ayo {
+  margin: 10px 0px 25px;
+}
+#productivity {
+  padding: 30px 0 30px 0;
+}
+#actions,
+#testimonials,
+#contact {
+  padding: 30px 0 90px 0;
+}
+#actions h2,
+#productivity h2 {
+  margin-bottom: 10px;
+}
+h2 {
+  -webkit-background-clip: text;
+  color: black;
+  font-size: 3.3em;
+}
+#actions h5,
+#productivity h5 {
+  margin-bottom: 40px;
+}
+.testimonial-item img {
+  width: 175px;
+  margin: 10px 0 25px 0;
+}
+.col-form-contact {
+  padding: 0;
+}
+.subscribe .btn-pink-blue {
+  margin: 0px 0px 35px 0px;
+}
+
+.img-raised {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.copyright {
+  width: 100%;
+  text-align: center !important;
+}
+.subscribe {
+  box-shadow: 0 3px 20px -4px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+@media screen and (max-width: 991px) {
+  .sidebar-collapse .navbar-collapse:before {
+    background: #3A1C71;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  .sp {
+    display: block;
+  }
+  .pc {
+    display: none;
+  }
+  .sp.n-logo {
+    display: inline-block;
+  }
+  .pc.n-logo {
+    display: none;
+  }
+  h2 {
+    font-size: 2.3em;
+  }
+  .card-signup {
+    height: auto;
+  }
+}
